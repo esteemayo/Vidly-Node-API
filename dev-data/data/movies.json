@@ -1,0 +1,172 @@
+[
+  {
+    "_id": "5c88fa8cf4afda39709c2955",
+    "title": "Airplane",
+    "genre": "5f8b8f2998de0c413844425e",
+    "numberInStock": 5,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 4,
+    "ratingsQuantity": 6,
+    "photo": "movie-7.jpg"
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2951",
+    "title": "The Hangover",
+    "genre": "5f8b95878702e21a48b4f354",
+    "numberInStock": 10,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 5,
+    "ratingsQuantity": 9,
+    "photo": "movie-1.jpg"
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c295a",
+    "title": "Wedding Crashers",
+    "genre": "5f905fff2e00c317c05e3b26",
+    "numberInStock": 15,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 4,
+    "ratingsQuantity": 6,
+    "photo": "movie-2.jpg"
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2961",
+    "title": "Die Hard",
+    "genre": "5f8b8f2998de0c413844425e",
+    "numberInStock": 5,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 4,
+    "ratingsQuantity": 7,
+    "photo": "movie-3.jpg"
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c295d",
+    "title": "Terminator",
+    "genre": "5f8b8f2998de0c413844425e",
+    "numberInStock": 10,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 4,
+    "ratingsQuantity": 5,
+    "photo": "movie-4.jpg"
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2966",
+    "title": "The Avengers",
+    "genre": "5f8b8f2998de0c413844425e",
+    "numberInStock": 15,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 5,
+    "ratingsQuantity": 7,
+    "photo": "movie-5.jpg"
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2970",
+    "title": "The Notebook",
+    "genre": "5f9060332e00c317c05e3b27",
+    "numberInStock": 5,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 4,
+    "ratingsQuantity": 6,
+    "photo": "movie-6.jpg"
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2974",
+    "title": "When Harry Met Sally",
+    "genre": "5f8b95878702e21a48b4f354",
+    "numberInStock": 10,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 4,
+    "ratingsQuantity": 7,
+    "photo": "movie-8.jpg"
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c296c",
+    "title": "Pretty Woman",
+    "genre": "5f8b95878702e21a48b4f354",
+    "numberInStock": 15,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 0,
+    "photo": "movie-9.jpg"
+  },
+  {
+    "_id": "5f28a1d0e2a03a48647033c7",
+    "title": "The Sixth Sense",
+    "genre": "5f8f91113140a652fcd597be",
+    "numberInStock": 5,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 0,
+    "photo": "movie-10.jpg"
+  },
+  {
+    "_id": "5f39ff92a4c0875f7078db32",
+    "title": "Gone Girl",
+    "genre": "5f8b95878702e21a48b4f354",
+    "numberInStock": 10,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 0,
+    "photo": "movie-11.jpg"
+  },
+  {
+    "_id": "5f37de2cb82caf22b0416363",
+    "title": "The Others",
+    "genre": "5f8b95878702e21a48b4f354",
+    "numberInStock": 15,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 0,
+    "photo": "movie-12.jpg"
+  },
+  {
+    "_id": "5f37d9fdc5e7d30facc5489a",
+    "title": "Aladdin",
+    "genre": "5f9060332e00c317c05e3b27",
+    "numberInStock": 6,
+    "dailyRentalRate": 5,
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 0,
+    "photo": "movie-13.jpg"
+  },
+  {
+    "_id": "5f37c714147e37517c16da43",
+    "title": "Pacific Rim 1",
+    "genre": "5f9060332e00c317c05e3b27",
+    "numberInStock": 3,
+    "dailyRentalRate": 1,
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 0,
+    "photo": "movie-14.jpg"
+  },
+  {
+    "_id": "5ec07d2bc0740e51b4be61d3",
+    "title": "Pacific Rim 2",
+    "genre": "5f9060332e00c317c05e3b27",
+    "numberInStock": 8,
+    "dailyRentalRate": 2,
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 0,
+    "photo": "movie-16.jpg"
+  },
+  {
+    "_id": "5f8e383b93e01c5330ce5846",
+    "title": "Sextuplets",
+    "genre": "5f8b963cf9320d5148e76d6f",
+    "numberInStock": 8,
+    "dailyRentalRate": 5,
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 0,
+    "photo": "movie-17.jpg"
+  },
+  {
+    "_id": "5f8f78fdd9ce395760a927d8",
+    "title": "Otherwood",
+    "genre": "5f8f91113140a652fcd597be",
+    "numberInStock": 2,
+    "dailyRentalRate": 3,
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 0,
+    "image": "movie-18.jpg"
+  }
+]

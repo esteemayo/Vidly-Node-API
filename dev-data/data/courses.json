@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "5f6a30a140a13726e01c4aee",
+    "name": "Vanilla JavaScript",
+    "category": "web",
+    "author": "John Doe",
+    "tags": ["node", "js"],
+    "isPublished": true,
+    "price": 20
+  },
+  {
+    "_id": "5f6a315c543c235a7c02db75",
+    "name": "C-SHARP",
+    "category": "mobile",
+    "author": "John Doe",
+    "tags": [".NET", "ASP.NET"],
+    "isPublished": true,
+    "price": 200
+  },
+  {
+    "_id": "5f8bb71ab96f031ccca3ae08",
+    "name": "A Node.js Crash Course",
+    "category": "web",
+    "author": "John Doe",
+    "tags": ["javascript", "mongodb", "node"],
+    "isPublished": true,
+    "price": 150
+  },
+  {
+    "_id": "5f8c211b47e812054c19b952",
+    "name": "JavaScript",
+    "category": "network",
+    "author": "John Doe",
+    "tags": ["javascript", "webpack", "parcel-bundler"],
+    "isPublished": true,
+    "price": 75
+  },
+  {
+    "_id": "5f8c213f47e812054c19b953",
+    "name": "An Introduction to Laravel",
+    "category": "web",
+    "author": "John Doe",
+    "tags": ["php", "laravel"],
+    "isPublished": true,
+    "price": 100
+  },
+  {
+    "_id": "5f8c2459819905419c0b76cc",
+    "name": "A Python Crash Course",
+    "category": "mobile",
+    "author": "John Doe",
+    "tags": ["python", "django"],
+    "isPublished": true,
+    "price": 105
+  }
+]

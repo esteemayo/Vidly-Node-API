@@ -1,0 +1,508 @@
+[
+  {
+    "_id": "5ee9ebc3ea178303bc3bc9fe",
+    "name": "Emmanuel Adebayo",
+    "email": "admin@vidly.io",
+    "username": "admin",
+    "dateOfBirth": "1992-08-06",
+    "gender": "Male",
+    "bio": "Temporibus natus vel error porro dolorem aspernatur praesentium. Provident blanditiis blanditiis. Iure perferendis doloremque. Quae exercitationem consequatur qui animi. Rerum ipsa ducimus ut recusandae.",
+    "address": [
+      {
+        "streetAddress": "552 Hahn Valleys",
+        "city": "Abdulberg",
+        "state": "New Mexico",
+        "zipCode": "90159"
+      }
+    ],
+    "phone": 9480257880,
+    "role": "admin",
+    "active": true,
+    "photo": "user-29.jpg",
+    "password": "$2a$12$47zKK6yJuJP3Cw1bzGrKSuRheBL6hvYFfCG4ORb5X9Lqfeghk1ThC"
+  },
+  {
+    "_id": "5c8a1d5b0190b214360dc057",
+    "name": "Maye Wintheiser",
+    "email": "maye.admin@vidly.io",
+    "username": "maye",
+    "dateOfBirth": "1990-02-14",
+    "gender": "Female",
+    "bio": "Nihil et omnis. Nulla possimus dolores omnis optio molestias sunt exercitationem voluptatem. Vitae laudantium tenetur quae facilis et tempore laudantium consequatur. Mollitia quia autem aut omnis quasi sed.",
+    "address": [
+      {
+        "streetAddress": "84145 Allene Turnpike",
+        "city": "New Matthaven",
+        "state": "Vermont",
+        "zipCode": "11606"
+      }
+    ],
+    "phone": 6844667016,
+    "role": "admin",
+    "active": true,
+    "photo": "user-22.jpg",
+    "password": "$2a$12$Q0grHjH9PXc6SxivC8m12.2mZJ9BbKcgFpwSG4Y1ZEII8HJVzWeyS"
+  },
+  {
+    "_id": "5f0f35f184c5303374110e85",
+    "name": "Mary Doe",
+    "email": "mdoe@example.com",
+    "username": "mdoe",
+    "dateOfBirth": "1986-10-28",
+    "gender": "Female",
+    "bio": "Fuga minima fugiat deserunt est aut quibusdam. Similique dolorem iste. Excepturi quod vel assumenda ad.",
+    "address": [
+      {
+        "streetAddress": "6129 Block Flat",
+        "city": "East Izabellaberg",
+        "state": "Nebraska",
+        "zipCode": "36671"
+      }
+    ],
+    "phone": 4615621447,
+    "role": "user",
+    "active": true,
+    "photo": "user-24.jpg",
+    "password": "$2a$12$LRf1m6YY4Q2pMjuzJUNI.eZ6jYWygoUKaIHXsBQgN3LHiqzGePVW."
+  },
+  {
+    "_id": "5c8a1dfa2f8fb814b56fa181",
+    "name": "Lourdes Browning",
+    "email": "loulou@example.com",
+    "username": "loulou",
+    "dateOfBirth": "1991-10-03",
+    "gender": "Female",
+    "bio": "Similique mollitia enim vel. Hic possimus voluptas. Quo voluptas enim quo quos. Doloremque facere molestias nam nobis mollitia nesciunt et ea molestiae. Doloremque optio nesciunt ea provident impedit commodi sit omnis.",
+    "address": [
+      {
+        "streetAddress": "69252 Mckayla Court",
+        "city": "Deckowbury",
+        "state": "Arkansas",
+        "zipCode": "43257"
+      }
+    ],
+    "phone": 4133808949,
+    "role": "user",
+    "active": true,
+    "photo": "user-2.jpg",
+    "password": "$2a$12$hP1h2pnNp7wgyZNRwPsOTeZuNzWBv7vHmsR3DT/OaPSUBQT.y0S.."
+  },
+  {
+    "_id": "5c8a1e1a2f8fb814b56fa182",
+    "name": "Sophie Louise Hart",
+    "email": "sophie@example.com",
+    "username": "sophie",
+    "dateOfBirth": "1980-12-24",
+    "gender": "Female",
+    "bio": "Aliquam dolor iure aut eveniet officiis enim. Qui eos dolor delectus fugit id voluptates reiciendis. Amet qui culpa dolor et eum dolorem non. Labore cumque corrupti et perferendis voluptate sit provident porro. Qui amet tempora labore. Ut eligendi molestias.",
+    "address": [
+      {
+        "streetAddress": "081 Kiehn Radial",
+        "city": "South Aubree",
+        "state": "West Virginia",
+        "zipCode": "67757"
+      }
+    ],
+    "phone": 1688660618,
+    "role": "user",
+    "active": true,
+    "photo": "user-3.jpg",
+    "password": "$2a$12$9nFqToiTmjgfFVJiQvjmreLt4k8X4gGYCETGapSZOb2hHa55t0dDq"
+  },
+  {
+    "_id": "5c8a1ec62f8fb814b56fa183",
+    "name": "Ayla Cornell",
+    "email": "ayls@example.com",
+    "username": "ayls",
+    "dateOfBirth": "1993-05-02",
+    "gender": "Female",
+    "bio": "Omnis occaecati est illo hic dolorem perferendis. Quidem aliquid repudiandae optio vitae dolores molestiae magni quam. Eum tempore adipisci ullam.",
+    "address": [
+      {
+        "streetAddress": "8941 Cummerata Island",
+        "city": "Lake Brandoshire",
+        "state": "Maryland",
+        "zipCode": "32474"
+      }
+    ],
+    "phone": 7965600746,
+    "role": "user",
+    "active": true,
+    "photo": "user-4.jpg",
+    "password": "$2a$12$tm33.M/4pfEbZF64WbFuHuVFv85v4qEhi.ik8njbud7yaoqCZpjiy"
+  },
+  {
+    "_id": "5c8a1f292f8fb814b56fa184",
+    "name": "Leo Gillespie",
+    "email": "leo@example.com",
+    "username": "leo",
+    "gender": "Male",
+    "dateOfBirth": "1995-12-03",
+    "bio": "Consequatur animi quia atque omnis amet ipsa nisi. Sequi in voluptatibus impedit minima numquam quia aut inventore. Incidunt quia enim necessitatibus et. Eum qui ipsa voluptas dolores architecto laboriosam. Ab quod voluptatibus harum soluta saepe fuga est et.",
+    "address": [
+      {
+        "streetAddress": "8309 Lisette Bypass",
+        "city": "North Landenberg",
+        "state": "North Carolina",
+        "zipCode": "12661"
+      }
+    ],
+    "phone": 1456790495,
+    "role": "user",
+    "active": true,
+    "photo": "user-5.jpg",
+    "password": "$2a$12$OOPr90tBEBF1Iho3ox0Jde0O/WXUR0VLA5xdh6tWcu7qb.qOCvSg2"
+  },
+  {
+    "_id": "5c8a1f4e2f8fb814b56fa185",
+    "name": "Jennifer Hardy",
+    "email": "jennifer@example.com",
+    "username": "jenny",
+    "dateOfBirth": "2000-12-08",
+    "gender": "Female",
+    "bio": "Esse labore illum eum. Eos quia consequuntur ut sint quo. Veniam ipsam occaecati beatae quia ipsum quis non sed ex.",
+    "address": [
+      {
+        "streetAddress": "79449 Ward Mall",
+        "city": "Erdmanmouth",
+        "state": "Mississippi",
+        "zipCode": "86027"
+      }
+    ],
+    "phone": 6915217288,
+    "role": "user",
+    "active": true,
+    "photo": "user-6.jpg",
+    "password": "$2a$12$XCXvvlhRBJ8CydKH09v1v.jpg0hB9gVVfMVEoz4MsxqL9zb5PrF42"
+  },
+  {
+    "_id": "5c8a201e2f8fb814b56fa186",
+    "name": "Kate Morrison",
+    "email": "kate@example.com",
+    "username": "katie",
+    "dateOfBirth": "1970-08-17",
+    "gender": "Female",
+    "bio": "Atque ut nemo quia perferendis voluptas ea. Eum quia maiores eos eveniet ipsum. Asperiores qui quod. Et commodi aut amet.",
+    "address": [
+      {
+        "streetAddress": "894 Padberg Lock",
+        "city": "Hoppebury",
+        "state": "South Carolina",
+        "zipCode": "93015"
+      }
+    ],
+    "phone": 6387290832,
+    "role": "user",
+    "active": true,
+    "photo": "user-7.jpg",
+    "password": "$2a$12$II1F3aBSFDF3Xz7iB4rk/.a2dogwkClMN5gGCWrRlILrG1xtJG7q6"
+  },
+  {
+    "_id": "5c8a20d32f8fb814b56fa187",
+    "name": "Eliana Stout",
+    "email": "eliana@example.com",
+    "username": "eliana",
+    "dateOfBirth": "1990-03-16",
+    "gender": "Female",
+    "bio": "Sint natus repellendus maiores repudiandae. Nulla animi impedit ipsa illo aut quia. Voluptatum et ipsam praesentium molestiae cum. Tenetur qui ratione et aut debitis cupiditate placeat blanditiis et.",
+    "address": [
+      {
+        "streetAddress": "1639 Alisa Centers",
+        "city": "North Colbychester",
+        "state": "California",
+        "zipCode": "92634"
+      }
+    ],
+    "phone": 8591913948,
+    "role": "user",
+    "active": true,
+    "photo": "user-8.jpg",
+    "password": "$2a$12$Jb/ILhdDV.ZpnPMu19xfe.NRh5ntE2LzNMNcsty05QWwRbmFFVMKO"
+  },
+  {
+    "_id": "5c8a211f2f8fb814b56fa188",
+    "name": "Cristian Vega",
+    "email": "chris@example.com",
+    "username": "chris",
+    "dateOfBirth": "1994-02-14",
+    "gender": "Male",
+    "bio": "Repellat eius nesciunt autem nisi minima inventore cum. Pariatur debitis dicta hic esse velit nesciunt rerum. Ut sed rerum vel facere dolor facere non dolorem neque.",
+    "address": [
+      {
+        "streetAddress": "885 Malinda Road",
+        "city": "New Koryton",
+        "state": "Iowa",
+        "zipCode": "62558"
+      }
+    ],
+    "phone": 7308017964,
+    "role": "user",
+    "active": true,
+    "photo": "user-9.jpg",
+    "password": "$2a$12$r7/jtdWtzNfrfC7zw3uS.eDJ3Bs.8qrO31ZdbMljL.lUY0TAsaAL6"
+  },
+  {
+    "_id": "5c8a21d02f8fb814b56fa189",
+    "name": "Steve T. Scaife",
+    "email": "steve@example.com",
+    "username": "steve",
+    "dateOfBirth": "1987-10-28",
+    "gender": "Male",
+    "bio": "Incidunt quia veritatis. Enim quam quia eligendi vel distinctio dolor expedita accusamus sed. Nihil vitae nam numquam est eveniet. Quidem qui omnis. Reiciendis aliquam consectetur veniam. Culpa quis eius autem sed blanditiis qui ratione voluptas est.",
+    "address": [
+      {
+        "streetAddress": "8670 Waelchi Club",
+        "city": "New Houstonmouth",
+        "state": "Vermont",
+        "zipCode": "11857"
+      }
+    ],
+    "phone": 6443833299,
+    "role": "user",
+    "active": true,
+    "photo": "user-10.jpg",
+    "password": "$2a$12$q7v9dm.S4DvqhAeBc4KwduedEDEkDe2GGFGzteW6xnHt120oRpkqm"
+  },
+  {
+    "_id": "5c8a21f22f8fb814b56fa18a",
+    "name": "Aarav Lynn",
+    "email": "aarav@example.com",
+    "username": "lynn",
+    "dateOfBirth": "1992-08-19",
+    "gender": "Male",
+    "bio": "Sed laborum assumenda. Mollitia tenetur aut molestias est quidem fugit fuga. Neque est quia nisi ullam dolorem consequatur. Natus soluta suscipit.",
+    "address": [
+      {
+        "streetAddress": "6923 Keyon Dale",
+        "city": "South Bertrand",
+        "state": "New York",
+        "zipCode": "08281"
+      }
+    ],
+    "phone": 3859417574,
+    "role": "user",
+    "active": true,
+    "photo": "user-11.jpg",
+    "password": "$2a$12$lKWhzujFvQwG4m/X3mnTneOB3ib9IYETsOqQ8aN5QEWDjX6X2wJJm"
+  },
+  {
+    "_id": "5c8a22c62f8fb814b56fa18b",
+    "name": "Miyah Myles",
+    "email": "miyah@example.com",
+    "username": "miyah",
+    "dateOfBirth": "1996-12-05",
+    "gender": "Female",
+    "bio": "Dolores asperiores debitis ab atque ea iure aut reprehenderit. Error id debitis aperiam. Et distinctio blanditiis eaque. Inventore nesciunt quia perspiciatis magni.",
+    "address": [
+      {
+        "streetAddress": "04332 Lockman Trafficway",
+        "city": "West Curtis",
+        "state": "Tennessee",
+        "zipCode": "29195"
+      }
+    ],
+    "phone": 1243623657,
+    "role": "user",
+    "active": true,
+    "photo": "user-12.jpg",
+    "password": "$2a$12$.XIvvmznHQSa9UOI639yhe4vzHKCYO1vpTUZc4d45oiT4GOZQe1kS"
+  },
+  {
+    "_id": "5c8a23412f8fb814b56fa18c",
+    "name": "Ben Hadley",
+    "email": "ben@example.com",
+    "username": "ben",
+    "dateOfBirth": "1997-11-20",
+    "gender": "Male",
+    "bio": "Ut et consequatur error est adipisci. Est ad voluptatibus sit optio. Reprehenderit nihil est illo sunt officia.",
+    "address": [
+      {
+        "streetAddress": "515 Lavada Island",
+        "city": "Lake Shaniya",
+        "state": "Nevada",
+        "zipCode": "07549"
+      }
+    ],
+    "phone": 6324304173,
+    "role": "user",
+    "active": true,
+    "photo": "user-13.jpg",
+    "password": "$2a$12$D3fyuS9ETdBBw5lOwceTMuZcDTyVq28ieeGUAanIuLMcSDz6bpfIe"
+  },
+  {
+    "_id": "5c8a23c82f8fb814b56fa18d",
+    "name": "Laura Wilson",
+    "email": "laura@example.com",
+    "username": "laura",
+    "dateOfBirth": "1998-12-23",
+    "gender": "Female",
+    "bio": "Blanditiis voluptatum vel. Laborum commodi cupiditate quod necessitatibus et voluptatem aut unde saepe. Corrupti qui dolorum et quas. Sed nostrum nihil illo est omnis et est dolores dolores.",
+    "address": [
+      {
+        "streetAddress": "59922 Hand Wells",
+        "city": "North Jacintoside",
+        "state": "New Jersey",
+        "zipCode": "63039"
+      }
+    ],
+    "phone": 8035474269,
+    "role": "user",
+    "active": true,
+    "photo": "user-14.jpg",
+    "password": "$2a$12$VPYaAAOsI44uhq11WbZ5R.cHT4.fGdlI9gKJd95jmYw3.sAsmbvBq"
+  },
+  {
+    "_id": "5c8a23de2f8fb814b56fa18e",
+    "name": "Max Smith",
+    "email": "max@example.com",
+    "username": "max",
+    "dateOfBirth": "1999-03-31",
+    "gender": "Male",
+    "bio": "Maiores et corrupti libero nemo ea. Alias molestiae reiciendis reprehenderit cupiditate quas nam. Incidunt aut nihil voluptatem dolor atque similique et vel nihil. Vel iure dolore adipisci sint totam ut. Sunt eum sint aut explicabo harum",
+    "address": [
+      {
+        "streetAddress": "019 Dawson Park",
+        "city": "Dulcefurt",
+        "state": "Oregon",
+        "zipCode": "72538"
+      }
+    ],
+    "phone": 8051902470,
+    "role": "user",
+    "active": true,
+    "photo": "user-15.jpg",
+    "password": "$2a$12$l5qamwqcqC2NlgN6o5A5..9Fxzr6X.bjx/8j3a9jYUHWGOL99oXlm"
+  },
+  {
+    "_id": "5c8a24282f8fb814b56fa18f",
+    "name": "Isabel Kirkland",
+    "email": "isabel@example.com",
+    "username": "isabel",
+    "dateOfBirth": "1986-10-15",
+    "gender": "Female",
+    "bio": "Omnis non ut at iure inventore. Placeat vel veritatis. Vero vitae autem doloremque eius ipsum. Ullam iste et non voluptatem. Doloremque incidunt et sed sed magnam culpa error sunt.",
+    "address": [
+      {
+        "streetAddress": "49904 Nash Haven",
+        "city": "North Demarcoburgh",
+        "state": "Alabama",
+        "zipCode": "50995"
+      }
+    ],
+    "phone": 4027854386,
+    "role": "user",
+    "active": true,
+    "photo": "user-16.jpg",
+    "password": "$2a$12$IUnwPH0MGFeMuz7g4gtfvOll.9wgLyxG.9C3TKlttfLtCQWEE6GIu"
+  },
+  {
+    "_id": "5c8a24402f8fb814b56fa190",
+    "name": "Alexander Jones",
+    "email": "alex@example.com",
+    "username": "alex",
+    "dateOfBirth": "1989-08-11",
+    "gender": "Male",
+    "bio": "Odit rem fugiat magni cupiditate qui eius. Velit animi officia. In dolores esse sed omnis sunt quia. Consequuntur sapiente omnis aliquam modi corporis. Omnis porro quia itaque eum.",
+    "address": [
+      {
+        "streetAddress": "681 Rozella Brook",
+        "city": "Cruickshankfort",
+        "state": "Alabama",
+        "zipCode": "68379"
+      }
+    ],
+    "phone": 1810116885,
+    "role": "user",
+    "active": true,
+    "photo": "user-17.jpg",
+    "password": "$2a$12$NnclhoYFNcSApoQ3ML8kk.b4B3gbpOmZJLfqska07miAnXukOgK6y"
+  },
+  {
+    "_id": "5c8a245f2f8fb814b56fa191",
+    "name": "Eduardo Hernandez",
+    "email": "edu@example.com",
+    "username": "edu",
+    "dateOfBirth": "1991-06-04",
+    "gender": "Male",
+    "bio": "Rerum asperiores assumenda at. Incidunt quis praesentium harum nihil odio eveniet perspiciatis qui quos.",
+    "address": [
+      {
+        "streetAddress": "346 Kaycee Parks",
+        "city": "West Hipolitoport",
+        "state": "Hawaii",
+        "zipCode": "48197"
+      }
+    ],
+    "phone": 5882019026,
+    "role": "user",
+    "active": true,
+    "photo": "user-18.jpg",
+    "password": "$2a$12$uB5H1OxLMOqDYTuTlptAoewlovENJvjrLwzsL1wUZ6OkAIByPPBGq"
+  },
+  {
+    "_id": "5c8a24822f8fb814b56fa192",
+    "name": "John Riley",
+    "email": "john@example.com",
+    "username": "riley",
+    "dateOfBirth": "1988-01-09",
+    "gender": "Male",
+    "bio": "Dolor ex totam enim non accusamus sit asperiores eum. Corporis qui aliquam quaerat animi. Aut voluptate recusandae voluptate voluptas repudiandae commodi. Unde voluptatem aut aliquid quia cumque nobis et est atque.",
+    "address": [
+      {
+        "streetAddress": "9553 Nyasia Mountain",
+        "city": "Marilouview",
+        "state": "West Virginia",
+        "zipCode": "33010"
+      }
+    ],
+    "phone": 8252062679,
+    "role": "user",
+    "active": true,
+    "photo": "user-19.jpg",
+    "password": "$2a$12$11JElTatQlAFo1Obw/dwd..vuVmQyYS7MT14pkl3lRvVPjGA00G8O"
+  },
+  {
+    "_id": "5c8a24a02f8fb814b56fa193",
+    "name": "Lisa Brown",
+    "email": "lisa@example.com",
+    "username": "lisa",
+    "dateOfBirth": "1994-07-12",
+    "gender": "Female",
+    "bio": "Magnam ullam sed hic enim consequatur iusto. Et eos fugit numquam laborum laboriosam sed doloremque consequatur in. Iusto omnis ut modi aut illo dicta et dolore iusto. Vel dolor ut et sit rerum. Voluptate recusandae cupiditate fugiat",
+    "address": [
+      {
+        "streetAddress": "645 Considine Village",
+        "city": "Balistreribury",
+        "state": "Iowa",
+        "zipCode": "82900"
+      }
+    ],
+    "phone": 4548442874,
+    "role": "user",
+    "active": true,
+    "photo": "user-20.jpg",
+    "password": "$2a$12$uA9FsDw63v6dkJKGlLQ/8ufYBs8euB7kqIQewyYlZXU5azEKeLEky"
+  },
+  {
+    "_id": "5f467be3e509c33f68b0b082",
+    "name": "Scott Rice",
+    "email": "scott@example.com",
+    "username": "scotty",
+    "dateOfBirth": "2000-08-26",
+    "gender": "Male",
+    "bio": "I'm a very cool and interesting guy. A tech enthusiast and lover of JavaScript. I'm a believer of God.",
+    "address": [
+      {
+        "streetAddress": "North Carolina, United State",
+        "city": "Califonia",
+        "state": "Califonia",
+        "zipCode": "097637"
+      }
+    ],
+    "phone": 19056824741,
+    "role": "user",
+    "active": true,
+    "photo": "user-30.jpg",
+    "password": "$2a$12$7UKbnQ88Vw3iwmbNLT9w8.TYxJrVUsT9q30/qvw/Li8.yhn3UfJcu"
+  }
+]

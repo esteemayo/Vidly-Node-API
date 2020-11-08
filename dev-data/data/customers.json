@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "5f71399eed3101184cbc3655",
+    "name": "Customer 1",
+    "phone": 6387290832,
+    "isGold": false
+  },
+  {
+    "_id": "5f8c29de139e7e3e7cf15256",
+    "name": "Alex Morgan",
+    "phone": 6443833299,
+    "isGold": false
+  },
+  {
+    "_id": "5f8c2a17139e7e3e7cf15257",
+    "name": "Jack Smith",
+    "phone": 8035474269,
+    "isGold": true
+  }
+]
