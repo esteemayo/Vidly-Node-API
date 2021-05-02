@@ -221,7 +221,7 @@ describe('/api/v1/reviews', () => {
         }
 
         beforeEach(() => {
-            newReview = 'Updated review',
+            newReview = 'Updated review';
             newRating = 4;
             newMovie = movieId;
             newUser = '5c8a1dfa2f8fb814b56fa181';
