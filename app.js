@@ -1,10 +1,10 @@
 const express = require('express');
 
-// Routes
-const AppError = require('./utils/appError');
-const globalErrorHandler = require('./controllers/errorController');
+// requiring routes
+const NotFoundError = require('./errors/notFound');
+const globalErrorHandler = require('./errors');
 
-// Start express app
+// start express app
 const app = express();
 
 console.log(app.get('env'));
@@ -12,7 +12,7 @@ console.log(app.get('env'));
 require('./startup/routes')(app);
 
 app.all('*', (req, res, next) => {
-    return next(new AppError(`Can't find ${req.originalUrl} on this server`, 404));
+  next(new NotFoundError(`Can't find ${req.originalUrl} on this server`));
 });
 
 app.use(globalErrorHandler);

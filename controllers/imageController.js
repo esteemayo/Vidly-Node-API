@@ -1,7 +1,8 @@
 const multer = require('multer');
 const sharp = require('sharp');
+
 const catchAsync = require('../utils/catchAsync');
-const AppError = require('../utils/appError');
+const BadRequestError = require('../errors/badRequest');
 
 /**
  const multerStorage = multer.diskStorage({
@@ -18,59 +19,62 @@ const AppError = require('../utils/appError');
 const multerStorage = multer.memoryStorage();
 
 const multerFilter = (req, file, cb) => {
-    if (file.mimetype.startsWith('image')) {
-        return cb(null, true);
-    }
-    return cb(new AppError('Not an image! Please upload only images', 400), false);
-}
+  if (file.mimetype.startsWith('image')) {
+    return cb(null, true);
+  }
+  return cb(
+    new BadRequestError('Not an image! Please upload only images'),
+    false
+  );
+};
 
 const upload = multer({
-    storage: multerStorage,
-    fileFilter: multerFilter
+  storage: multerStorage,
+  fileFilter: multerFilter,
 });
 
 exports.upload = upload.single('photo');
 
 exports.resizeNewUserPhoto = catchAsync(async (req, res, next) => {
-    if (!req.file) return next();
+  if (!req.file) return next();
 
-    req.file.filename = `users-${Date.now()}.jpeg`;
+  req.file.filename = `users-${Date.now()}.jpeg`;
 
-    await sharp(req.file.buffer)
-        .resize(500, 500)
-        .toFormat('jpeg')
-        .jpeg({ quality: 90 })
-        .toFile(`public/img/users/${req.file.filename}`);
+  await sharp(req.file.buffer)
+    .resize(500, 500)
+    .toFormat('jpeg')
+    .jpeg({ quality: 90 })
+    .toFile(`public/img/users/${req.file.filename}`);
 
-    next();
+  next();
 });
 
 exports.resizeUserPhoto = catchAsync(async (req, res, next) => {
-    if (!req.file) return next();
+  if (!req.file) return next();
 
-    req.file.filename = `users-${req.user.id}-${Date.now()}.jpeg`;
+  req.file.filename = `users-${req.user.id}-${Date.now()}.jpeg`;
 
-    await sharp(req.file.buffer)
-        .resize(500, 500)
-        .toFormat('jpeg')
-        .jpeg({ quality: 90 })
-        .toFile(`public/img/user/${req.file.filename}`);
+  await sharp(req.file.buffer)
+    .resize(500, 500)
+    .toFormat('jpeg')
+    .jpeg({ quality: 90 })
+    .toFile(`public/img/user/${req.file.filename}`);
 
-    next();
+  next();
 });
 
 exports.resizeMoviePhoto = catchAsync(async (req, res, next) => {
-    if (!req.file) return next();
+  if (!req.file) return next();
 
-    const id = req.params.id ? req.params.id : 'new';
+  const id = req.params.id ? req.params.id : 'new';
 
-    req.file.filename = `movies-${id}-${Date.now()}.jpeg`;
+  req.file.filename = `movies-${id}-${Date.now()}.jpeg`;
 
-    await sharp(req.file.buffer)
-        .resize(2000, 1333)
-        .toFormat('jpeg')
-        .jpeg({ quality: 90 })
-        .toFile(`public/img/movies/${req.file.filename }`);
+  await sharp(req.file.buffer)
+    .resize(2000, 1333)
+    .toFormat('jpeg')
+    .jpeg({ quality: 90 })
+    .toFile(`public/img/movies/${req.file.filename}`);
 
-    next();
+  next();
 });

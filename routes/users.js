@@ -1,4 +1,5 @@
 const express = require('express');
+
 const authController = require('../controllers/authController');
 const userController = require('../controllers/userController');
 const imageController = require('../controllers/imageController');
@@ -6,10 +7,11 @@ const validateObjectId = require('../middlewares/validateObjectId');
 
 const router = express.Router();
 
-router.post('/signup', 
-    imageController.upload, 
-    imageController.resizeNewUserPhoto,
-    authController.signup
+router.post(
+  '/signup',
+  imageController.upload,
+  imageController.resizeNewUserPhoto,
+  authController.signup
 );
 
 router.post('/login', authController.login);
@@ -24,32 +26,24 @@ router.patch('/updateMyPassword', authController.updatePassword);
 
 router.get('/me', userController.getMe, userController.getUser);
 
-router.patch('/updateMe', 
-    imageController.upload,
-    imageController.resizeUserPhoto,
-    userController.updateMe
+router.patch(
+  '/updateMe',
+  imageController.upload,
+  imageController.resizeUserPhoto,
+  userController.updateMe
 );
 
 router.delete('/deleteMe', userController.deleteMe);
 
 router
-    .route('/')
-    .get(userController.getAllUsers)
-    .post(userController.createUser);
+  .route('/')
+  .get(userController.getAllUsers)
+  .post(userController.createUser);
 
 router
-    .route('/:id')
-    .get(
-        validateObjectId,
-        userController.getUser
-    )
-    .patch(
-        validateObjectId,
-        userController.updateUser
-    )
-    .delete(
-        validateObjectId,
-        userController.deleteUser
-    );
+  .route('/:id')
+  .get(validateObjectId, userController.getUser)
+  .patch(validateObjectId, userController.updateUser)
+  .delete(validateObjectId, userController.deleteUser);
 
 module.exports = router;
